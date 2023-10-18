@@ -4,6 +4,7 @@ import { Book } from './Bookshelf';
 interface BookListProps {
   readonly books: readonly Book[];
 }
+
 export function BookList(props: BookListProps) {
   const totalBooks = () => props.books.length;
 
