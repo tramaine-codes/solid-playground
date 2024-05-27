@@ -5,7 +5,6 @@ export const Counter = () => {
   const increment = () => setCount((prev) => prev + 1);
 
   createEffect(() => {
-    // eslint-disable-next-line no-console
     console.log(`count is ${count()}`);
   });
 
