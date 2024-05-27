@@ -5,6 +5,7 @@ export const Counter = () => {
   const increment = () => setCount((prev) => prev + 1);
 
   createEffect(() => {
+    // biome-ignore lint/suspicious/noConsoleLog: <explanation>
     console.log(`count is ${count()}`);
   });
 
