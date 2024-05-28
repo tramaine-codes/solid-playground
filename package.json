@@ -1,20 +1,4 @@
 {
-  "name": "solid-playground",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "build": "tsc && vite build",
-    "dev": "vite",
-    "format": "biome format --write --no-errors-on-unmatched .",
-    "lint": "biome lint --no-errors-on-unmatched .",
-    "lint:fix": "biome lint --apply --no-errors-on-unmatched .",
-    "prepare": "husky install",
-    "preview": "vite preview",
-    "serve": "vite preview",
-    "start": "vite",
-    "test": "vitest run"
-  },
   "dependencies": {
     "solid-js": "1.8.17"
   },
@@ -32,5 +16,21 @@
     "vite": "5.2.11",
     "vite-plugin-solid": "2.10.2",
     "vitest": "1.6.0"
-  }
+  },
+  "name": "solid-playground",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "format": "biome format --write --no-errors-on-unmatched .",
+    "lint": "biome lint --no-errors-on-unmatched .",
+    "lint:fix": "biome lint --apply --no-errors-on-unmatched .",
+    "prepare": "husky",
+    "preview": "vite preview",
+    "serve": "vite preview",
+    "start": "vite",
+    "test": "vitest run"
+  },
+  "type": "module",
+  "version": "0.0.0"
 }
