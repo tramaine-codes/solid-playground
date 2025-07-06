@@ -22,9 +22,9 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
-    "format": "biome format --write --no-errors-on-unmatched .",
+    "format": "biome format --fix --no-errors-on-unmatched .",
     "lint": "biome lint --no-errors-on-unmatched .",
-    "lint:fix": "biome lint --apply --no-errors-on-unmatched .",
+    "lint:fix": "biome lint --fix --no-errors-on-unmatched .",
     "prepare": "husky",
     "preview": "vite preview",
     "serve": "vite preview",
