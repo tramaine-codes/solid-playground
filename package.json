@@ -3,7 +3,7 @@
     "solid-js": "1.9.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.6",
+    "@biomejs/biome": "2.1.2",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@release-it/conventional-changelog": "10.0.1",
@@ -11,7 +11,7 @@
     "husky": "9.1.7",
     "jsdom": "26.1.0",
     "lint-staged": "16.1.2",
-    "release-it": "19.0.3",
+    "release-it": "19.0.4",
     "typescript": "5.8.3",
     "vite": "6.3.5",
     "vite-plugin-solid": "2.11.7",
